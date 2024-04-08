@@ -1,0 +1,73 @@
+.links {
+    font-family: "Verdana";
+    color: green;
+    text-align: center;
+    font-size: 54;
+}
+
+header {
+  background-color: lightblue;
+  height: 50px;
+  margin-left: 0 auto;
+  width:100%;
+}
+
+.logo {
+  display: inline;
+  padding-top: 100px;
+  margin-left: 10px;
+}
+
+.container{
+  width:80%;
+  margin: 0 auto; 
+}
+
+nav {
+  float: right;
+}
+
+nav ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+  padding-top: 15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav a {
+  color: #444 
+}
+
+nav a:hover {
+  color: Yellow;
+}
+
+.rectangle {
+  height: 75px;
+  width: 100px;
+  color:white;
+  background-color: rgb(77,77,77);
+  border-radius:7px;
+  display: inline-block;
+  text-align:center;
+  justify-content:center;
+  vertical-align: center;
+  align-items: center;
+}
+
+
+
+.myDiv1 {
+  height:200;
+  display: flex;
+  border: 5px outset red;
+  background-color: lightblue;
+  
+
+}
